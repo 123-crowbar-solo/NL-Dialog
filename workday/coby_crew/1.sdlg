@@ -38,7 +38,7 @@ The three of them look at you, then the wall, then each other.
 - So, uh, how long have you all been working with these particular files?
   Coby: Oh, not long. Just- uh. Three hours…
 - New Year soon, huh? I can't wait for snow.
-  Coby: Me too! I didn't see much of it before coming to the Grand Line
+  Coby: Me too! I didn't see much of it before coming to the Grand Line.
   Coby: Now I can't get enough of it.
 
 Coby: Oh! I guess I should tell you what we're doing exactly…
@@ -72,7 +72,7 @@ Coby: Don't mind him. That's just his resting face.
 - That's some resting face. (-1 Helmeppo)
   Helmeppo: …
 
-You all get back to work, quietly sifting through papers. Occasionally Helmeppo leans over to give you a hand identifying forms.
+You all get back to work, quietly sifting through papers. Occasionally, Helmeppo leans over to give you a hand identifying forms.
 - You really know these forms, huh.
   Helmeppo: Yeah. I've gotten to know them pretty well.
   Coby: He helps me finish mine when he's done with his.
@@ -84,7 +84,7 @@ You all get back to work, quietly sifting through papers. Occasionally Helmeppo 
 => Drake_gets_drinks
 
 :: Drake_gets_drinks
-You see Drake reach for his cup and try to take a sip, only to put it down looking sour.
+You see Drake reach for his cup and try to take a sip, only to put it down, looking sour.
 Drake: I'm going to go get another drink. Anyone else want one?
 Helmeppo: I'm alright for now.
 Coby: I'll take one.
@@ -101,7 +101,7 @@ You go back to sorting the papers. The stale air is filled with nothing but the 
   `name`: … Just no?
   Coby: I don't know how he does it either…
 - There are so many incident reports… Is the Grand Line really that dangerous?
-  Coby: Yeah. Between the pirates, sea kings and unpredictable weather there's a lot of different things that can kill.
+  Coby: Yeah. Between the pirates, sea kings and unpredictable weather, there's a lot of different things that can kill.
   Coby: Of course there's also a higher number of Marines here in the Grand Line, so that doesn't help those numbers…
 
 Coby: Anyways. I'm sorry you got pulled into all this. It's not one of our usual duties either, so you should be able to avoid it in the future.
@@ -137,7 +137,7 @@ Coby: We have ladders, too. And lots of papers to organize on the low shelves.
   - I wonder if there will be a lot of papers from higher shelves stuck into the lower ones. (+1 Drake)
     Drake: Yes, I think so. I can put them back if you hand them to me.
   - And it's more convenient for all of us to reach, too. (+1 Coby)
-  - Yay…I can hardly wait. (-1 Drake)
+  - Yay… I can hardly wait. (-1 Drake)
 
 :: Helmeppo_gets_drinks
 Helmeppo: Well, looks like the three of you are having fun. I'll just go off and get us some more coffee and tea.
@@ -179,7 +179,7 @@ Drake: Well. That's certainly going to be an issue for us.
 :: Goat_Realization
 You think back to what you've seen and heard about the goat. How could this have happened? If the door was open…and you were the last one to come in…
 - The door…did I not shut it correctly?
-  Coby: Probably. But don't worry, the door's always been difficult and it's your first time in here.
+  Coby: Probably not. But don't worry, the door's always been difficult and it's your first time in here.
 - Someone else must have come in after me.
   Helmeppo: I guess it's possible…
 - It's my fault. I must have left it open behind me. I'm so sorry.
@@ -188,11 +188,11 @@ You think back to what you've seen and heard about the goat. How could this have
 - Come on, let's go and find it!
 - Is this really our responsibility? (-1 Drake)
 - Maybe we should make a plan first…
-  Helmeppo: If the goat's here, the longer we take the more files we're going to lose.
+  Helmeppo: If the goat's here, the longer we take, the more files we're going to lose.
 
 Drake: I think we should split up. There's a lot of area to cover.
 Coby: Oh, two and two? Good thinking!
-Helmeppo: If we go alone we can cover more ground.
+Helmeppo: If we go alone, we can cover more ground.
 Coby: What about you, `name`? You don't know the filing room that well–do you want to tag along with one of us?
 - I think I can handle it by myself. => Solo_start
 - I'll go with Lieutenant Commander Helmeppo. => Helmeppo_start
@@ -201,7 +201,7 @@ Coby: What about you, `name`? You don't know the filing room that well–do you 
 
 :: Solo_start
 do hide_characters(hide)
-The four of you head in opposite directions, in tacit agreement to spread your search wide. At least, you hope you're still going in an opposite direction from the other three...this place is like a maze. You don't see, hear, or smell anything for a while, and eventually you reach the end of your aisle and what looks like a solid wall.
+The four of you head in opposite directions, in tacit agreement to spread your search wide. At least, you hope you're still going in an opposite direction from the other three... This place is like a maze. You don't see, hear, or smell anything for a while, and eventually you reach the end of your aisle and what looks like a solid wall.
 - **Go back the way you came.** => Solo_back
 - **Turn down the right aisle.** => Solo_right
 - **Turn down the left aisle.** => Solo_left
@@ -217,11 +217,11 @@ You turn to the right and set off down the adjacent aisle. It seems empty.
 - Hey, I have some food with me…goat?
 - Hello?
 
-There's no answer. Your eye catches something shiny on a shelf. It's definitely not the goat, but it could be interesting...hmm, looks like a catalog of exotic pet treats. Could be promising for the goat, but as you flip through it, everything seems to be related to wolves and coyotes.
+There's no answer. Your eye catches something shiny on a shelf. It's definitely not the goat, but it could be interesting... Hmm, looks like a catalog of exotic pet treats. Could be promising for the goat, but as you flip through it, everything seems to be related to wolves and coyotes.
 => Solo_find_goat
 
 :: Solo_left
-You turn to the left and start down the next aisle. No sign of the goat, or its trail of destruction. Have you been down this row before? You're suddenly not sure, so you check the shelves. The boxes all look the same, but no, there's a bright pink paper sticking out that you would have noticed if you'd already passed it.
+You turn to the left and start down the next aisle. No sign of the goat or its trail of destruction. Have you been down this row before? You're suddenly not sure, so you check the shelves. The boxes all look the same, but no, there's a bright pink paper sticking out that you would have noticed if you'd already passed it.
 You lean in; it's a comic book. The title reads, **Sora, Warrior of the Sea #300: Special Poison Pink Variant Edition**. A collector's item?
 => Solo_find_goat
 
@@ -233,7 +233,7 @@ It's chomping away at some files on a lower shelf; they look important. The cont
 - Naughty goat! Everyone's going to be so mad at you. I bet those papers are important.
   Goat: Maaa. (-1 point)
   => Solo_goat_scolded
-- Ugh, I'd better call someone for help…where's my dendenmushi? => Solo_goat_call
+- Ugh, I'd better call someone for help…where's my den den mushi? => Solo_goat_call
 - Here, why don't you eat this instead? => Solo_goat_eat
 
 :: Solo_goat_scolded
@@ -243,7 +243,7 @@ The goat looks up at you, pausing in its chewing. It's caused so much destructio
 - Well, as long as I keep an eye on you, maybe someone else will come along and know what to do. => Solo_goat_wait
 
 :: Solo_goat_call
-You pick up your dendenmushi and try to dial. The snail looks up at you, slowly blinking and shaking its head. Is something blocking the receiver? Damn, you were hoping to get hold of the others...when you went off alone, you weren't thinking of actually having to corner the goat.
+You pick up your den den mushi and try to dial. The snail looks up at you, slowly blinking and shaking its head. Is something blocking the receiver? Damn, you were hoping to get hold of the others... When you went off alone, you weren't thinking of actually having to corner the goat.
 - Looks like you're going to run out of files to eat soon. Here, let me give you something else. => Solo_goat_eat
 - Maybe I should wait. The room is big, but one of them will show up eventually. => Solo_goat_wait
 - I'll just have to lead you out by myself. => Solo_goat_corner
@@ -284,7 +284,7 @@ You could pull out your rope and lead the goat out, or you could try and back it
   Goat: Maaa.
 - Okay, I'm going to get out my rope and we're going to go on a nice field trip.
 
-You pull out your rope. It should be long enough to use as a leash, and the goat allows you to slip it onto its collar. Getting the goat to move, on the other hand...well, once you start offering bits of an empty file folder as bait, it starts to move, but the way back to the door is a long one, and even food can't keep the goat mollified for long. The bit of rope begins to strain…
+You pull out your rope. It should be long enough to use as a leash, and the goat allows you to slip it onto its collar. Getting the goat to move, on the other hand... Well, once you start offering bits of an empty file folder as bait, it starts to move, but the way back to the door is a long one, and even food can't keep the goat mollified for long. The bit of rope begins to strain…
 Goat: Maaaa!
 The rope snaps. The goat runs two steps before bumping right into…
 - **Drake.** =>  Solo_regroup_Drake
@@ -331,7 +331,7 @@ Drake reaches down and lifts up the goat with as little effort as if he's liftin
 The goat wriggles in Drake's arms, though it doesn't quite look as if it's trying to break free.
 - Shh, we've got you, and we'll be bringing you back to the former Fleet Admiral soon. (+1 Drake)
 - Quick, let's see how far we can make it before the goat breaks free again! (-1 Drake)
-- Uh…are you worried?
+- Uh… Are you worried?
   Drake: Not really. Do you have anything to feed it?
   - Yeah, some more of this empty file folder. (+1 Drake)
   - Nope.
@@ -347,12 +347,12 @@ Goat: Maaa…
   Coby: Maybe, but who knows how much paperwork it ate…
 - At least it's over for now, right?
   Coby: I suppose you're right…
-- Yeah. It was tearing through files like a… well. An animal.
+- Yeah. It was tearing through files like a… Well. An animal.
   Coby: Well I guess that's to be expected.
 
 Coby leans over and grabs the goat's collar.
 Coby: Come on now, let's get you out of here.
-You follow Coby through the file room towards the door. He gently shoos it out into the hallway, jokingly pointing at a sign on the door that boldly states ‘No Goats Allowed'.
+You follow Coby through the file room towards the door. He gently shoos it out into the hallway, jokingly pointing at a sign on the door that boldly states ‘No Goats Allowed.'
 
 Coby: Well. I'm glad that's over with. I was stressed enough without it in here eating things…
 - You don't think they'll blame us, will they?
@@ -367,7 +367,7 @@ Helmeppo stays quiet for a while, looking down at the goat as it looks up at him
 Goat: Maaaaa?
 It gently butts its head against his legs.
 - Huh. It seems to like you.
-  Helmeppo: Yeah, I have… good luck with animals.
+  Helmeppo: Yeah, I have…good luck with animals.
 - So… Now what?
   Helmeppo: Now we get this one out of here before it eats anything else.
 - Oh so it's good for *you*, but not me.
@@ -448,7 +448,7 @@ Helmeppo: Great. That's a good part of today's work wasted.
 => Helmeppo_goat_capture
 
 :: Helmeppo_wait
-Helmeppo sits down again and gets back to work. After a few moments you join him. The work is as tedious as before, and it's easy to get lost in the haze of boredom. At least, until you hear a jingle by your elbow. The goat stands beside your chair, looking up at you with pleading eyes.
+Helmeppo sits down again and gets back to work. After a few moments, you join him. The work is as tedious as before, and it's easy to get lost in the haze of boredom. At least, until you hear a jingle by your elbow. The goat stands beside your chair, looking up at you with pleading eyes.
 Goat: Maaaaa?
 - Um. Hello.
   Goat: ~Maaaaaa!~
@@ -475,7 +475,7 @@ Helmeppo: `name`, grab that blue box behind you. That's the stuff we need to shr
 
 :: Helmeppo_goat_recruitment
 Helmeppo joins you in feeding the papers that were destined for the trash to the goat. It bleats happily, content with being your disposal system for the time being.
-Helmeppo: We can kick this one out later. But the more it eats now the less we need to shred later, so it can stay for a bit.
+Helmeppo: We can kick this one out later. But the more it eats now, the less we need to shred later, so it can stay for a bit.
 Goat: &&Maaaaaa!&&
 Helmeppo: Just… Keep an eye on the files we still need… (+1 Helmeppo, +2 Goat)
 
@@ -509,10 +509,10 @@ Coby: Do you have any ideas?
 
 :: Coby_bribe
 You both collect some various blank papers that you find in the filing room. File folders, cardstock, an old wanted poster, anything that could be appealing to a goat. Hopefully it will be enough to catch the goat's attention.
-Coby: Here goat, who wants a snack?
-- Come here sweet thing, we've got a bunch of yummy papers for you! (+1 Coby, +1 Goat) => Coby_bribe2
-- Pspsps here goat goat goat. => Coby_bribe2
-- Come on out you useless animal. (-1 Coby, -1 Goat)
+Coby: Here, goat, who wants a snack?
+- Come here, sweet thing, we've got a bunch of yummy papers for you! (+1 Coby, +1 Goat) => Coby_bribe2
+- Pspsps, here goat goat goat. => Coby_bribe2
+- Come on out, you useless animal. (-1 Coby, -1 Goat)
   Coby: Hey. There is no need for that.
   => Coby_bribe2
 
@@ -520,7 +520,7 @@ Coby: Here goat, who wants a snack?
 You hear a jingling approaching you at a rapid pace. The goat comes around the corner, bleating hungrily and eyeing the papers in your hands.
 Goat: Maaaa!
 Coby: There you are! Come here and let me grab you.
-- Aw, well aren't you a food-motivated cutie. (+1Goat)
+- Aw, well, aren't you a food-motivated cutie. (+1Goat)
   Goat: Maaaaa…
   => Coby_goat_secure
 - Phew. Crisis averted.
@@ -539,7 +539,7 @@ You both quiet down, all but tiptoeing through the aisles as you keep an ear out
   => Coby_corner2
 
 :: Coby_sneak2
-You grab the goat's collar. To your surprise it doesn't struggle, instead looking up at you both with the saddest goat eyes you've ever seen, even as Coby scoops it up into his arms.
+You grab the goat's collar. To your surprise, it doesn't struggle, instead looking up at you both with the saddest goat eyes you've ever seen, even as Coby scoops it up into his arms.
 - Aw. Sorry buddy, but we can't have you eating in here.
   Goat: Maaaaaaaaaaaa…
   => Coby_goat_secure
@@ -563,7 +563,7 @@ Coby and you eventually hear some jingling and split up, boxing the goat into th
   => Coby_corner2
 
 :: Coby_corner2
-The goat makes an attempt to bolt, but you both jump on it and manage to grab it before it gets away. Eventually it stops struggling and simply bleats sadly, allowing Coby to pick it up.
+The goat makes an attempt to bolt, but you both jump on it and manage to grab it before it gets away. Eventually, it stops struggling and simply bleats sadly, allowing Coby to pick it up.
 - Sorry, but we need to get you out of here. (-1 Goat)
   Goat: Maa.
   => Coby_goat_secure
@@ -590,32 +590,32 @@ Coby: See? Was that so bad?
   => Coby_goat_secure
 
 :: Coby_goat_secure
-Coby holds the goat tightly against his chest. It squirms a bit, but quickly settles down again. It bleats sadly at you before starting to chew on Coby's coat. If the captain noticed, he didn't say anything.
+Coby holds the goat tightly against his chest. It squirms a bit, but quickly settles down again. It bleats sadly at you before starting to chew on Coby's coat. If the captain notices, he doesn't say anything.
 Coby: Thanks for the help… I don't think I'd ever have been able to get it on my own. This little thing sure is trouble. I guess we should let the others know too, huh…
 Goat: ~Maaaaaaaa!~
 
 :: Drake_start
 You follow Drake down the aisle, in the opposite direction from Helmeppo and Coby. Despite his long legs and purposeful stride, you find keeping pace with him almost easy–which is good, because you have no clue where you are. He stops at the end of an aisle and glances to either side.
 - Do you think you know where it went?
-  Drake: No…we know for sure it was at the door though, so maybe we should head that way.
+  Drake: No… We know for sure it was at the door though, so maybe we should head that way.
 - Could we smell it if we sniffed?
   Drake: …Let's head for the door.
 - Why don't we head for the door? We can try to pick up the trail from there.
   Drake: Good thinking, `name`. (+1 point)
 
-He seems to have a good idea of the layout of the room, and you're at the door sooner than you expected. On the floor, a trail of torn-up paper leads down a new aisle. Drake picks up the pace and so do you; every time you think you might be losing the trail you see something promising–a dent shaped like a horn, another scrap of paper, the contents of a file strewn on the floor. Then you hear the faint sound of bleating.
+He seems to have a good idea of the layout of the room, and you're at the door sooner than you expected. On the floor, a trail of torn-up paper leads down a new aisle. Drake picks up the pace and so do you; every time you think you might be losing the trail, you see something promising–a dent shaped like a horn, another scrap of paper, the contents of a file strewn on the floor. Then you hear the faint sound of bleating.
 Drake: That must be it.
 do show_character(goat, center, show)
 Drake: Oh, no–its front leg is stuck in that file drawer.
 Goat: #Maaaaaaaaaa!#
-Drake: It's okay…here you go.
+Drake: It's okay… Here you go.
 He pulls out a scrap of paper from his pants pocket and holds it out to the goat. The goat wolfs it down. It still seems distressed…
-- Shh, it's okay...who's a good goat?
+- Shh, it's okay... Who's a good goat?
   Goat: Maaaaa?
   => Drake_calm
 - Bad goat! You destroyed all of those files.
   Goat: *Maaaa* (-1 Goat)
-  Drake: It's just a goat…don't get angry with it. (-1 Drake)
+  Drake: It's just a goat… Don't get angry with it. (-1 Drake)
   => Drake_angry
 - What should we do? I don't know much about animals...
   Drake: We can try to get it out ourselves if we're careful, but maybe we should calm it down first.
@@ -637,7 +637,7 @@ He pulls out a scrap of paper from his pants pocket and holds it out to the goat
     Goat: Maaa! (+1 Goat)
     => Drake_paper
   - Quick, Rear Admiral Drake! Can I have that piece of paper in your hand?
-    Drake: Well…I guess…I was going to submit it as a requisition form, though.  (-1 Drake)
+    Drake: Well… I guess… I was going to submit it as a requisition form, though.  (-1 Drake)
     Goat: Maaa! (+1 Goat)
     => Drake_paper
 
@@ -651,7 +651,7 @@ The goat happily munches on its piece of paper. It doesn't look nearly as distre
   => Drake_Sengoku
 
 :: Drake_angry
-Drake: There, there...let's see.
+Drake: There, there... Let's see.
 - What are we going to do about all these files? (-1 Drake)
   Drake: We can figure that out later. Right now we need to focus on the goat.
   - Okay, maybe we should calm it down a little. => Drake_calm
@@ -666,7 +666,7 @@ do show_character(goat, center, show)
   Goat: Maaa.
 - Here, have some more paper. I don't think Rear Admiral Drake is going to use this file anyway. (+1 Goat)
 
-Drake is gone for a while, but in that time the goat seems to be calming down. It slows its chewing on the files and sits quietly. When Drake reappears, however, it's alone.
+Drake is gone for a while, but in that time, the goat seems to be calming down. It slows its chewing on the files and sits quietly. When Drake reappears, however, it's alone.
 do show_character(drake, center, show)
 Drake: Sengoku-san said that since this room is in our jurisdiction, this is our problem to solve. So I think we'd better get the others…
 => Pre_regroup_without_goat
@@ -680,7 +680,7 @@ Drake: We'll have to do this carefully.
 Drake produces a bottle of water and pours some out into the cap. He stoops down to extend it toward the goat, who happily laps it up.
 - Should I pour some more?
   Drake: I think that amount is good for now. We wouldn't want it to get overhydrated.
-- Aww, good goat...I bet you're really scared and frustrated right now. (+1 Drake)
+- Aww, good goat... I bet you're really scared and frustrated right now. (+1 Drake)
   Goat: Maaa. (+1 Goat)
 - Does this happen a lot?
   Drake: When I was younger, Sengoku-san had another goat who could unlock doors with its hooves. Not much since then.
@@ -702,10 +702,10 @@ Drake: We'll have to try again.
 => Pre_regroup_without_goat
 
 :: Drake_goat_secure
-Drake crouches down, whispering to the goat in a soothing tone. It holds still very patiently, and you reach for the drawer and pull it out. The goat takes a few seconds before realizing it can pull out its leg, and then it does.
+Drake crouches down, whispering to the goat in a soothing tone. It holds still and, very patiently, you reach for the drawer and pull it out. The goat takes a few seconds before realizing it can pull out its leg, and then it does.
 Goat: Maaa!
 It wriggles in Drake's arms, but Drake holds it securely.
-Drake: Good job, `name`. Looks like we've got it out of trouble for now...we'll have to inform Coby and Helmeppo. (+1 Drake)
+Drake: Good job, `name`. Looks like we've got it out of trouble for now... We'll have to inform Coby and Helmeppo. (+1 Drake)
 => Pre_regroup_with_goat
 
 :: Pre_regroup_with_goat

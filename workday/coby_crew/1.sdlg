@@ -38,7 +38,7 @@ The three of them look at you, then the wall, then each other.
 - So, uh, how long have you all been working with these particular files?
   Coby: Oh, not long. Just- uh. Three hours…
 - New Year soon, huh? I can't wait for snow.
-  Coby: Me too! I didn't see much of it before coming to the Grand Line
+  Coby: Me too! I didn't see much of it before coming to the Grand Line.
   Coby: Now I can't get enough of it.
 
 Coby: Oh! I guess I should tell you what we're doing exactly…
@@ -201,7 +201,7 @@ Coby: What about you, `name`? You don't know the filing room that well–do you 
 
 :: Solo_start
 do hide_characters(hide)
-The four of you head in opposite directions, in tacit agreement to spread your search wide. At least, you hope you're still going in an opposite direction from the other three...this place is like a maze. You don't see, hear, or smell anything for a while, and eventually you reach the end of your aisle and what looks like a solid wall.
+The four of you head in opposite directions, in tacit agreement to spread your search wide. At least, you hope you're still going in an opposite direction from the other three... This place is like a maze. You don't see, hear, or smell anything for a while, and eventually you reach the end of your aisle and what looks like a solid wall.
 - **Go back the way you came.** => Solo_back
 - **Turn down the right aisle.** => Solo_right
 - **Turn down the left aisle.** => Solo_left
@@ -233,7 +233,7 @@ It's chomping away at some files on a lower shelf; they look important. The cont
 - Naughty goat! Everyone's going to be so mad at you. I bet those papers are important.
   Goat: Maaa. (-1 point)
   => Solo_goat_scolded
-- Ugh, I'd better call someone for help…where's my dendenmushi? => Solo_goat_call
+- Ugh, I'd better call someone for help… Where's my den den mushi? => Solo_goat_call
 - Here, why don't you eat this instead? => Solo_goat_eat
 
 :: Solo_goat_scolded
@@ -243,7 +243,7 @@ The goat looks up at you, pausing in its chewing. It's caused so much destructio
 - Well, as long as I keep an eye on you, maybe someone else will come along and know what to do. => Solo_goat_wait
 
 :: Solo_goat_call
-You pick up your dendenmushi and try to dial. The snail looks up at you, slowly blinking and shaking its head. Is something blocking the receiver? Damn, you were hoping to get hold of the others...when you went off alone, you weren't thinking of actually having to corner the goat.
+You pick up your den den mushi and try to dial. The snail looks up at you, slowly blinking and shaking its head. Is something blocking the receiver? Damn, you were hoping to get hold of the others...when you went off alone, you weren't thinking of actually having to corner the goat.
 - Looks like you're going to run out of files to eat soon. Here, let me give you something else. => Solo_goat_eat
 - Maybe I should wait. The room is big, but one of them will show up eventually. => Solo_goat_wait
 - I'll just have to lead you out by myself. => Solo_goat_corner
@@ -405,7 +405,7 @@ Helmeppo: We can wait here and wait for the goat to come to us.
 
 :: Helmeppo_argument
 You think you meet his gaze, but it's hard to tell with the sunglasses. Either way, he doesn't seem very happy.
-Helmeppo: Well then, what do you *you* suggest we do?
+Helmeppo: Well then, what do *you* suggest we do?
 - Actually, it might be better to keep an eye on all this paperwork.
   Helmeppo: Now you're making sense.
   => Helmeppo_wait
@@ -437,13 +437,13 @@ You continue your search through the filing room's aisles, listening carefully f
 => Solo_find_goat
 
 :: Helmeppo_search_return
-You follow him back to the workstation you started at. As you reach it your stomach drops. The goat stands on the table, looking at both of you with its mouth full of paperwork.
+You follow him back to the workstation you started at. As you reach it, your stomach drops. The goat stands on the table, looking at both of you with its mouth full of paperwork.
 Helmeppo: Great. That's a good part of today's work wasted.
 - Well. One man's work is another's dinner, it seems. (+1 Helmeppo)
   Helmeppo: Ok, that was terrible.
 - Oh no… We're going to have to replace all of that…
   Helmeppo: It's what we get for leaving it up for grabs.
-- Don't you dare say ‘I told you so'.
+- Don't you dare say ‘I told you so.'
   Helmeppo: Well I *did* tell you so.
 => Helmeppo_goat_capture
 
@@ -452,7 +452,7 @@ Helmeppo sits down again and gets back to work. After a few moments you join him
 Goat: Maaaaa?
 - Um. Hello.
   Goat: ~Maaaaaa!~
-- Sir the goat's here.
+- Sir, the goat's here.
   Helmeppo: I can see that.
 - Wow. I admit, I didn't think it'd actually show up.
   Helmeppo: Hey.
@@ -539,7 +539,7 @@ You both quiet down, all but tiptoeing through the aisles as you keep an ear out
   => Coby_corner2
 
 :: Coby_sneak2
-You grab the goat's collar. To your surprise it doesn't struggle, instead looking up at you both with the saddest goat eyes you've ever seen, even as Coby scoops it up into his arms.
+You grab the goat's collar. To your surprise, it doesn't struggle, instead looking up at you both with the saddest goat eyes you've ever seen, even as Coby scoops it up into his arms.
 - Aw. Sorry buddy, but we can't have you eating in here.
   Goat: Maaaaaaaaaaaa…
   => Coby_goat_secure
@@ -590,7 +590,7 @@ Coby: See? Was that so bad?
   => Coby_goat_secure
 
 :: Coby_goat_secure
-Coby holds the goat tightly against his chest. It squirms a bit, but quickly settles down again. It bleats sadly at you before starting to chew on Coby's coat. If the captain noticed, he didn't say anything.
+Coby holds the goat tightly against his chest. It squirms a bit but quickly settles down again. It bleats sadly at you before starting to chew on Coby's coat. If the captain notices, he doesn't say anything.
 Coby: Thanks for the help… I don't think I'd ever have been able to get it on my own. This little thing sure is trouble. I guess we should let the others know too, huh…
 Goat: ~Maaaaaaaa!~
 

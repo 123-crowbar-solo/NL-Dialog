@@ -429,8 +429,8 @@ Helmeppo: This is going nowhere, let's head back.
 
 :: Helmeppo_choice
 Helmeppo walks back the way you both came.
-- **Follow Him** => Helmeppo_search_return
-- **Continue Searching** => Helmeppo_split
+- **Follow him** => Helmeppo_search_return
+- **Continue searching** => Helmeppo_split
 
 :: Helmeppo_split
 You continue your search through the filing room's aisles, listening carefully for any sign of the goat. Without the help of someone who knew the halls, it's hard to navigate the irregular aisles and precariously stacked file boxes. With any luck you'll find the visiting animal before it does too much damage…

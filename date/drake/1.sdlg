@@ -26,10 +26,10 @@ You look into the first drawer on the right. It seems pretty full and well-organ
     Drake: I don't think it was limited to just one drawer.
 - What about this piece of paper that's sticking out near the back?
   Drake: Oh, let me take a closer look.
-  His gloved hand brushes over yours as he reaches for the file. The sensation of the leather is pleasant on your skin.
-  Drake: No, this is just an oversize page.
+  His gloved hand brushes over yours as he reaches for the file. The sensation of the leather is pleasant against your skin.
+  Drake: No, this is just an oversized page.
 
-You continue to work through the files. Nothing seems to be out of place in the top drawer, so you close it and open the next one. Before you even see the damage, you hear the papers ruffling and folding against the top of the drawer. Unlike the first, they seem to have been thrown into the draw haphazardly, not at all what you'd expect to see from Drake.
+You continue to work through the files. Nothing seems to be out of place in the top drawer, so you close it and open the next one. Before you even see the damage, you hear the papers ruffling and folding against the top of the drawer. Unlike the first, they seem to have been thrown into the draw haphazardly, which is not at all what you'd expect to see from Drake.
 - Uh...this looks pretty bad.
   Drake: Yes, the goat must have gotten in there.
   - So what's missing?
@@ -44,7 +44,7 @@ You continue to work through the files. Nothing seems to be out of place in the 
   Drake: No, that was the goat.
   - I was just kidding. => Part_3C
   - Oh. Right. => Part_3B
-- Well, nothing to see here either.
+- Well, nothing to see here, either.
   You close the drawer again before Drake can see into it.
   Drake: Please check more thoroughly.
   => Part_3C
@@ -53,7 +53,7 @@ You continue to work through the files. Nothing seems to be out of place in the 
 Drake: It's not that I don't like you, `name`, but I'd really like to get this work done.
 - Right, but maybe we'll work better if we get to know each other first?
   Drake: I think we'll learn more about each other by working together.
-- Maybe we should get to it, then. What all needs to be done, just the files?
+- Maybe we should get to it, then. What needs to be done, just the files?
   Drake: Yes, just the files.
 - So after work, then? Can't have all work and no play.
   Drake: This is work, though.
@@ -110,7 +110,7 @@ Drake: Would you like some water? I know it can be a bit stuffy in here.
 - I brought my own.
   Drake: It's good to see someone so prepared.
   - Are new people usually not prepared?
-    Drake: I wouldn't say that in general, no. New recruits are well-trained, especially when it comes to things like that. But people tend to forget, the longer they've been out of Basic.
+    Drake: I wouldn't say that in general, no. New recruits are well-trained, especially when it comes to things like that. But the longer people have been out of Basic, the more they tend to forget.
     => Part_4B
   - I try. I also brought my first aid kid, and an extra flask full of hot water, and some candy, and spare bits of rope...you never know what you're going to need.
     Drake: That's true. Even somewhere like this, you could fall and cut yourself on a filing cabinet.
@@ -121,7 +121,7 @@ Drake: Would you like some water? I know it can be a bit stuffy in here.
 do hide_characters(fade)
 do set_background("office", fade)
 do show_character(drake, center, fade)
-You've been combing through the files for a while now. Towards the back of the third drawer from the top, you find a folder and several papers (they look like writeups for misbehaving sailors from a quick glance) with a chunk bitten out of all of them and tilt it toward Drake.
+You've been combing through the files for a while now. Towards the back of the third drawer from the top, you find a folder and several papers (they look like writeups for misbehaving sailors at a quick glance) with a chunk bitten out of all of them. You tilt it toward Drake.
 Drake: I think someone else should have copies of those on file. You can leave them on my desk.
 You turn to do as he asks. The desk is neat and clear, indistinct from any other but for a large paperweight shaped like a lizard.
 - Should it just go under the paperweight?
@@ -249,12 +249,12 @@ Your hands brush as both of you reach in simultaneously to the same drawer. You 
   - A goat's way of showing affection?
     Drake: Yes, I think so.
     => Two_point_end
-  - Well maybe you've reached the former Fleet Admiral's level of, uh, goat friendship.
+  - Well, maybe you've reached the former Fleet Admiral's level of, uh, goat friendship.
     Drake: ...I doubt it, but I appreciate the sentiment.
     => Two_point_end
 
 :: Part_4C
-You crack your knuckles and dig into the papers. Beside you, Drake busies himself with his own papers. You pull out a few with chunks bitten out, and close the drawer--hey, are you done?
+You crack your knuckles and dig into the papers. Beside you, Drake busies himself with his own papers. You pull out a few with chunks bitten out and close the drawer--hey, are you done?
 - Is that everything?
   Drake: Looks like it. Good job.
 - Wow, we did that so quickly!
@@ -322,7 +322,7 @@ Drake: Ah, it's getting late.
   - Maybe I wasn't paying attention...
   - Whoa, your hearing is really good.
 - Yeah, I'm getting hungry for dinner.
-- No kidding...it feels like we've been here forever.
+- No kidding... It feels like we've been here forever.
 
 Drake: I guess we should put this work down for now, but maybe we can get back to it later?
 - Can we keep going?

@@ -52,7 +52,7 @@ Helmeppo: Yeah. Been meaning to for a while, but it was closed last time I was d
 - Actually, I'm going to head back to base. => End_date
 
 :: Helmeppo_bath_store2
-The store is small, but surprisingly full. Everywhere you turn you see some kind of soap, sugar scrub, bath bomb, or other bath product. The air smells of perfume.
+The store is small, but surprisingly full. Everywhere you turn, you see some kind of soap, sugar scrub, bath bomb, or other bath product. The air smells of perfume.
 do increment("hd1.points_possible")
 - This place smells so nice.
     do increment("hd1.points")
@@ -65,12 +65,12 @@ do increment("hd1.points_possible")
 :: Helmeppo_bathstore_choice
 Helmeppo: Hey, you didn't have to come in.
 - You're right. I'm going back outside. => Helmeppo_wait1
-- I'm fine, it just caught me off guard => Helmeppo_bath_store3
+- I'm fine, it just caught me off guard. => Helmeppo_bath_store3
 
 :: Helmeppo_bath_store3
-Helmeppo: I'm just looking at the bar soaps. Local places make their own stuff, so it's always so unique. And it changes pretty regularly so I stop in when I can.
+Helmeppo: I'm just looking at the bar soaps. Local places make their own stuff, so it's always so unique. And it changes pretty regularly, so I stop in when I can.
 do increment("hd1.points_possible")
-- Huh. In that case I should get some myself.
+- Huh. In that case, I should get some myself.
     do increment("hd1.points")
     => Helmeppo_bath_store5
 - Oh, that's cool. => Helmeppo_bath_store4
@@ -78,7 +78,7 @@ do increment("hd1.points_possible")
     Helmeppo: I'd rather be considered ‘girly' than smell like *some* of the people I know. => Helmeppo_bath_store4
 
 :: Helmeppo_bath_store4
-Helmeppo: I'm just going to grab a few then we can go. => Helmeppo_travel2
+Helmeppo: I'm just going to grab a few and then we can go. => Helmeppo_travel2
 
 :: Helmeppo_bath_store5
 Helmeppo: You should! Hell, I'll buy it for you if you want.
@@ -98,14 +98,14 @@ You both wander the store for a while, each picking out a few items before check
 => Helmeppo_travel2
 
 :: Helmeppo_wait1
-You wait outside the store, enjoying the fresh air. Helmeppo is gone for a while, but eventually steps out of the store with a bag in his hand.
+You wait outside the store, enjoying the fresh air. Helmeppo is gone for a while but eventually steps out of the store with a bag in his hand.
 Helmeppo: I'm back. Sorry it took so long.
 do increment("hd1.points_possible")
 - There you are! I was about to send in a search party.
     do increment("hd1.points")
     Helmeppo: I wasn't gone that long, was I? => Helmeppo_travel2
 - It's alright, I didn't mind the wait. => Helmeppo_travel2
-- You should be. I was close to leaving
+- You should be. I was close to leaving.
     do decrement("hd1.points")
     Helmeppo: … => Helmeppo_travel2
 
@@ -153,7 +153,7 @@ Helmeppo: What about him?
     Helmeppo: You can't terrorize people with a cat.
     Helmeppo: I haven't done that in a while though, so don't worry. => Helmeppo_weaponsmith1
 - I can't get over how weird that is. I mean, a pet goat's strange but a wolf is on another level.
-    Helmeppo: If you're trying to insult me you'll have to do better than calling me weird.
+    Helmeppo: If you're trying to insult me, you'll have to do better than calling me weird.
     => Helmeppo_weaponsmith1
 
 :: Helmeppo_Garp
@@ -162,7 +162,7 @@ Helmeppo: Painful. More so for me than Coby.
 Helmeppo: Word of advice, don't let him pat you on the back if you value your spine.
 - I guess he really lives up to ‘Garp the Fist' then…
     Helmeppo: More than you know… => Helmeppo_weaponsmith1
-- What do you mean it was more painful for you?
+- What do you mean, it was more painful for you?
     Helmeppo: Coby's sturdy and built to take a hit.
     Helmeppo: I am not. => Helmeppo_weaponsmith1
 - Aw, too weak to handle something so simple?
@@ -183,7 +183,7 @@ Helmeppo: I'm picking up my kukri. The grips cracked during my last sparring ses
 
 :: Helmeppo_weaponsmith1
 You both finally stop in front of the weaponsmith's shop. It's a small place, but you can see a workshop behind the store.
-Helmeppo: I'm just going to go in real quick, wait here. => Helmeppo_weaponsmith2
+Helmeppo: I'm just going to go in real quick. Wait here. => Helmeppo_weaponsmith2
 
 :: Helmeppo_weaponsmith2
 You don't have to wait long before he's back, his kukri blades back in his belt.
@@ -223,11 +223,11 @@ Helmeppo: So… You're from the South Blue, right? What was it like?
 He falls quiet again. It's not as peaceful as last time. You notice the almost troubled look on Helmeppo's face. The talk of your home seems to have brought up some less than pleasant thoughts for him…
 - (Stay Silent) => Date_Ending
 - What is there to eat around here? => Helmeppo_food_choice
-- So, you and Coby go way back right? => Helmeppo_Coby
+- So, you and Coby go way back, right? => Helmeppo_Coby
 - What made you choose to fight with kukri? => Helmeppo_kukri2
 
 :: Helmeppo_kukri2
-Helmeppo: Huh? Oh. Well I chose them because I got hit in the head with a practice sword when I first got to Marineford as a chore boy.
+Helmeppo: Huh? Oh. Well, I chose them because I got hit in the head with a practice sword when I first got to Marineford as a chore boy.
 `name`: Really?
 Helmeppo: No. I mean, that *did* happen, but I started using kukri because they fit the fighting style I was going for.
 => Date_Ending
@@ -252,16 +252,16 @@ do increment("hd1.points_possible")
 - Sure. If you enjoy it, it must be good.
     do increment("hd1.points")
     Helmeppo: I think you're the only one who's ever taken my taste in things as a good thing. => Helmeppo_sandwiches
-- Yeah I could go for a sandwich.
+- Yeah, I could go for a sandwich.
     Helmeppo: Cool. Let's go, then. => Helmeppo_sandwiches
 - Do they have anything *other* than sandwiches?
     Helmeppo: Yeah, they have a bunch of other stuff.
-    `name`: Oh. Well then. => Helmeppo_sandwiches
+    `name`: Oh. Well, then. => Helmeppo_sandwiches
 
 :: Helmeppo_sandwiches
 You let him lead you to the sandwich shop. It's a cute little place, tucked away from the main road.
 do set_background("restaurant", show)
-Inside is very quiet. You are able to get your food quickly and start walking back to the base once more. The sun was starting to set.
+Inside is very quiet. You are able to get your food quickly and start walking back to the base once more. The sun is starting to set.
 => Date_Ending
 
 :: End_date
@@ -271,15 +271,15 @@ do romance_points(helmeppo, 0)
 :: Date_Ending
 do set_background("town", show)
 Helmeppo: Geeze, I didn't even notice it was getting so late…
-It isn't long before you both make it back to the base, walking into the training grounds where you had first run into him. For several seconds you both just stand there.
+It isn't long before you both make it back to the base, walking into the training grounds where you had first run into him. For several seconds, you both just stand there.
 
 if check_ratio("hd1.points","hd1.points_possible",0.5)
-    Helmeppo: Look, I know I was dismissive when you asked, but… thanks for coming with me today. It was nice.
+    Helmeppo: Look, I know I was dismissive when you asked, but… Thanks for coming with me today. It was nice.
     Helmeppo: We should do something like this again sometime. You know. If you want to.
     - Yeah. I'd like that. (+1)
         Helmeppo: Cool. Uh. I'll see you later, then.
     - Maybe. We'll see.
-    Helmeppo: Well I guess just let me know.
+    Helmeppo: Well, I guess just let me know.
     do romance_points(helmeppo, 2)
 else
     Helmeppo: Well. Hope you weren't bored to death following me on my errands today. I'll see you around.

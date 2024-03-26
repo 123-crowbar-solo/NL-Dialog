@@ -2,7 +2,7 @@
 You decide you should see what Captain Coby is up to. You haven't seen him around the base in the past few hours, so you decide to check his office.
 do set_background("office", show)
 do show_character(coby, center, show)
-Sure enough, he's there and looking rather... frazzled, to say the least.
+Sure enough, he's there and looking rather...frazzled, to say the least.
 do increment("cd1_possible")
 - Captain? Is everything ok? => Coby_notice1
 - Excuse me, sir, is now a good time? => Coby_notice1
